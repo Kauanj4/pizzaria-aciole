@@ -148,3 +148,58 @@ html {
     justify-content: space-between;
    
 }
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+
+  .content {
+    flex-direction: column;
+    height: auto;
+    padding-left: 0;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .content .list-menu {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .content .list-menu li a {
+    padding: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .first-section {
+    background-position-y: center;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .first-section h1 {
+    font-size: 4rem;
+  }
+
+  .first-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .btn button {
+    width: 80%;
+  }
+}
+
